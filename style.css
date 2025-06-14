@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #0a0d18;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container a{
+    margin: 1vw;
+    color: #fff;
+    text-decoration: none;
+}
+
+.container img{
+    align-items: center;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    margin: 2vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.card{
+    display: flex;
+    margin: 1vw;
+    background-color: #191e34c2;
+    padding: 1vw 10vw 1vw 10vw;
+    justify-content: space-between;
+    color: #fff;
+    align-items: center;
+}
+
+.card img{
+    width: 30vw;
+}
+
+.card p{
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.card a{
+    color: #fff;
+    text-decoration: none;
+    background-color: rgba(56, 66, 112, 0.678);
+    padding: 1vw;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.cardContent{
+    display: flex;
+    flex-direction: column;
+}
+
+#destaque{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #191e34;
+    color: #fff;
+    margin: 5vw 20vw 5vw 20vw;
+    padding: 1vw;
+}
+
+#destaqueTitulo{
+    font-size: 2vw;
+    margin-bottom: 3vw;
+}
+
+#destaqueTitulo::after{
+    content: '';
+    display: block;
+    width: 23.5vw;
+    height: 0.3vw;
+    background-color: #fff;
+    margin-top: 1vw;
+}
+
+#textoDestaque{
+    font-size: 1.5vw;
+    margin-top: 3vw;
+    margin-bottom: 1vw;
+    text-align: center;
+}
+
+#logo img{
+    width: 6rem;
+}
+
+#buttonLogin{
+    background-color: #596bb9;
+    color: #000;
+    border: none;
+    border-radius: 10px;
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+#menuHamburguer{
+    width: 2rem;
+}
+
+header{
+    background-color: #191e34;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+#imgDestaque img{
+    width: 40vw;
+}
