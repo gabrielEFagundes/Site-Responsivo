@@ -8,19 +8,19 @@
 </head>
 <body>
     <header class="container">
-        <section class="container">
-            <a href="#">
-                <img src="/Imagens/menu-hamburguer.png" alt="Menu Hambúrguer" id="menuHamburguer">
-            </a>
-            <a href="#">Home</a>
-            <a href="#">Notícias</a>
-            <a href="#">Sobre nós</a>
+        <section id="logo">
+            <img src="/Imagens/logo.jpg" alt="Logo">
+        </section>
+        <section class="visibility">
             <button id="buttonLogin">
                 <a href="#">Fazer Login</a>
             </button>
-        </section>
-        <section id="logo">
-            <img src="/Imagens/logo.jpg" alt="Logo">
+            <a href="#">Home</a>
+            <a href="#">Notícias</a>
+            <a href="#">Sobre nós</a>
+            <a href="#">
+                <img src="/Imagens/menu-hamburguer.png" alt="Menu Hambúrguer" id="menuHamburguer">
+            </a>
         </section>
     </header>
 
@@ -34,52 +34,80 @@
             </section>
             <section id="imgDestaque">
                 <img src="Imagens/destaque.png" alt="Python melhor que Java?">
-            </section>
-            <section id="textoDestaque">
-                <h2>BOMBA! Morador de Xique-Xique diz que Python é melhor que Java e recebe cobra pelo correio!</h2>
+                <section id="textoDestaque">
+                    <h2>BOMBA! Morador de Xique-Xique diz que Python é melhor que Java e recebe cobra pelo correio!</h2>
+                    <br><br><br>
+                    <a href="#">Ver mais</a>
+                </section>
             </section>
         </section>
         <section class="cards">
             <section class="card" >
-                <img src="/Imagens/adHere.jpg" alt="Anúncie concosco">
+                <section class="separador">
+                    <img src="/Imagens/adHere.jpg" alt="Anúncie concosco">
+                </section>
                 <section class="cardContent">
                     <p>Faça um anúncio concosco!</p>
                     <a href="#">Ver mais</a>
                 </section>
             </section>
-            <section class="card">
+            <section class="card" id="cardJournal">
                 <section class="cardContent">
                     <p>Contrate um de nossos jornalistas.</p>
                     <a href="#">Ver mais</a>
                 </section>
-                <img src="/Imagens/HireMe.jpg" alt="Anúncie concosco">
+                <section class="separador">
+                    <img src="/Imagens/HireMe.jpg" alt="Anúncie concosco">
+                </section>
             </section>
             <section class="card">
-                <img src="/Imagens/HireEditors.jpg" alt="Anúncie concosco">
+                <section class="separador">
+                    <img src="/Imagens/HireEditors.jpg" alt="Anúncie concosco">
+                </section>
                 <section class="cardContent">
                     <p>Contrate nossos milhares de editores formais.</p>
                     <a href="#">Ver mais</a>
                 </section>
             </section>
-            <section class="card">
-                <img src="#" alt="Se torne um de nossos patreons">
-                <p>Torne-se um de nossos patreons!</p>
+            <section class="card" id="cardPatreon">
+                <section class="cardContent">
+                    <p>Torne-se um de nossos patreons!</p>
+                    <a href="#">Ver mais</a>
+                </section>
+                <section class="separador">
+                    <img src="/Imagens/patreons.jpg" alt="Anúncie concosco">
+                </section>
             </section>
             <section class="card">
-                <img src="#" alt="Nos torne seu patreon">
-                <p>Contrate-nos para sermos seu patreon!</p>
+                <section class="separador">
+                    <img src="/Imagens/hireus.jpg" alt="Anúncie concosco">
+                </section>
+                <section class="cardContent">
+                    <p>Torne-nos em seu patreon!</p>
+                    <a href="#">Ver mais</a>
+                </section>
             </section>
             <section class="card">
-                <img src="#" alt="Seja parte de nossa comunidade">
-                <p>Faça parte da nossa comunidade!</p>
+                <section class="cardContent">
+                    <p>Faça parte da nossa comunidade.</p>
+                    <a href="#">Ver mais</a>
+                </section>
+                <section class="separador">
+                    <img src="/Imagens/comunidade.jpg" alt="Anúncie concosco">
+                </section>
             </section>
         </section>
     </main>
 
     <footer>
         <section id="footer">
-            <h4>Coding News</h4>
-            <sub>Mantendo você atualizado, assim como você mantém o Java.</sub>
+            <section>
+                <h4>Coding News</h4>
+                <sub>Mantendo você atualizado, assim como você mantém o Java.</sub>
+            </section>
+            <section id="copyright">
+                <h5>© Copyright: All rights reserved.</h5>
+            </section>
         </section>
     </footer>
 </body>
